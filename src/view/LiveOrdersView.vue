@@ -38,7 +38,7 @@ let socket
 const orders_info = ref({orders: []})
 
 onMounted(() => {
-  socket = new WebSocket('wss://pos.minutda.uz/ws/orders/?branch=312')
+  socket = new WebSocket('wss://pos.minutda.uz/ws/orders/?branch=321')
 
   socket.onopen = () => {
   }

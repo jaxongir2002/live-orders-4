@@ -28,7 +28,7 @@ let socket
 const orders_info = ref({orders: []}) // 🟢 Boshlanishda object
 
 onMounted(() => {
-  socket = new WebSocket('wss://pos.minutda.uz/ws/orders/kitchen/?branch=312')
+  socket = new WebSocket('wss://pos.minutda.uz/ws/orders/kitchen/?branch=321')
 
   socket.onopen = () => {
     console.log('WebSocket ulanildi!')
